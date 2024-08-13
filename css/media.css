@@ -164,7 +164,6 @@
     font-size: 64px;
     line-height: 74px;
     text-transform: uppercase;
-    background: linear-gradient(90deg, #FF2400 0%, #FF240B 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
