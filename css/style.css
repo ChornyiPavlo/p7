@@ -86,7 +86,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: 700;
   font-size: 128px;
   line-height: 104px;
-  background: linear-gradient(90deg, #FF2400 0%, #FF240B 100%);
+  background: #f6a913;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
