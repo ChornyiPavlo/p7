@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #094F9A 0%, #072F54 32.81%, #040D1C 68.75%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  min-height: 100%;
+  position: relative;
+
+}
+
+body::-webkit-scrollbar {
+  width: 1vmin;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(15, 41, 85);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #fa5a00;
+  border-radius: 30px;
+}
+
+.main {
+  box-sizing: border-box;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #1A1B1F;
+  background-size: 135%;
+  background-attachment: fixed;
+  overflow: hidden;
+
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  min-height: calc(100vh - 50px);
+  flex-grow: 1;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 0 20px;
+}
+
+.logo__img {
+  max-height: 42px;
+}
+
+.info {
+  text-transform: uppercase;
+  margin-top: 160px;
+  font-size: 16px;
+  z-index: 1;
+}
+
+.info__title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #FFFFFF;
+}
+
+.info__currency {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 104px;
+  background: linear-gradient(90deg, #FF2400 0%, #FF240B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  white-space: nowrap;
+}
+
+.info__currency--long-title {
+  font-size: 6em;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.disclaimer {
+  position: relative;
+  font-family: "Poppins", serif;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 20px 0;
+  max-width: 80%;
+}
+
+.email {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.email img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.email span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.partners {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.app-links {
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.info-footer {
+  width: 80%;
+}
+.copyright {
+  position: relative;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.button-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 75px;
+  gap: 10px;
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.info__subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.btn-group {
+  margin-top: 35px;
+  display: flex;
+  justify-content:space-between;
+  max-width: 520px;
+}
+
+.btn-group__item {
+
+}
+
+.btn {
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+  flex: 1 0 47%;
+  max-width: 47%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 75px;
+  gap: 10px;
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.btn-group__item--casino {
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  gap: 10px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.btn-group__item--bets {
+  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 100px;
+  gap: 10px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  white-space: nowrap;
+}
+
+
+.info__btn {
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/*info__switcher*/
+
+/* Скрыть флажок HTML по умолчанию */
+
+/* Ползунок */
+
+
+/*end info__switcher*/
+
+
+
+.flex-inner {
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+}
+
+.roulette-block {
+  margin-right: -23%;
+}
+
+.roulette-block__img {
+  position: absolute;
+  right: 4%;
+}
+
+.roulette-block__img.mobile {
+  display: none;
+}
+
+
+.info-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-bottom: 35px; */
+}
+
+.info-line__store-link {
+  text-decoration: none;
+}
+
+.info-line__store-link:nth-child(1) {
+  margin-right: 13px;
+}
+
+.info-line__parthners-img {
+  max-width: 100%;
+}
+
+.info-line__store {
+margin-left: 20px;
+}
+
+
+.form-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  opacity: 0;
+  z-index: -10000;
+  background: rgba(12, 17, 29, 0.7);
+  backdrop-filter: blur(12px);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+.form-bg.showing {
+  animation: showing 0.6s linear forwards;
+  opacity: 1;
+  z-index: 1000;
+  display: flex;
+}
+
+
+@keyframes showing {
+  0% {
+
+    opacity: 0;
+  }
+
+  100%{
+
+    opacity: 1;
+  }
+}
+
