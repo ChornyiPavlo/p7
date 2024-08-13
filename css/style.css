@@ -258,8 +258,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .btn-group__item--bets {
-  background: linear-gradient(270deg, #00CFA6 0%, #006A3B 100%);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: #f6a913;
+  border: #111;
   border-radius: 100px;
   gap: 10px;
   font-family: 'Poppins', serif;
@@ -270,7 +270,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #111;
   white-space: nowrap;
 }
 
